@@ -244,7 +244,7 @@ def get_qiandao(token, __NS_sig3):
         print(f"获取异常:{traceback.format_exc()}")
 
 # 获取环境变量
-_cookie = os.getenv('KSJSB_COOKIE')
+_cookie = os.getenv('KSJSB_COOKIE2')
 
 # 检查变量是否存在
 if _cookie == '':
