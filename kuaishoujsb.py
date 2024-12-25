@@ -248,7 +248,7 @@ _cookie = os.getenv('KSJSB_COOKIE8')
 
 # 检查变量是否存在
 if _cookie == '':
-    print("请先在环境变量里添加 \"KS_COOKIE\" 填写对应快手的 cookie 值")
+    print("请先在环境变量里添加 \"KS_COOKIE8\" 填写对应快手的 cookie 值")
     exit(0)
 
 def gen_tokensig(sig,salt=""):
